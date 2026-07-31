@@ -1,0 +1,26 @@
+header{
+    color: rgb(179, 179, 255);
+    font-size: 30px;
+    font-family: "k-font";
+
+    background-color: rgb(219, 219, 219);
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+}
+
+body{
+    background-color: white;
+}
+footer p{
+    color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+@font-face {
+    font-family: "k-font";
+    src: url("../k-font/keifont.ttf")format("truetype");
+}
